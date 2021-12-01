@@ -182,6 +182,7 @@ footer{
     font-size: 20px;
     gap: 20px;
 }
+
 .formulario{
     width: 100px;
 }
@@ -196,4 +197,426 @@ footer{
 .mapa{
     height: 400px;
     width: 500px;
+}
+@media(max-width:850px) {
+    .letra1{
+        padding: 0 100px 0 100px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .navegacion{
+        height: 100px;
+        padding: 2%;
+        gap: 40px;
+    }
+    .navegacion nav{
+        gap: 30px;
+    }
+    nav a{
+        gap: 20px;
+        font-size: 20px;
+    }
+    section{
+        background: url(../images/cabecera.jpg) 0 -100px;
+        background-size: cover;
+        height: 400px;
+    }
+    .letra{
+        font-size: 40px;
+        padding: 20px;
+    }
+    .navegacion1{
+        padding: 2%;
+        font-size: 25px;
+    
+    }
+    .ancho{
+        width: 190px;
+        height:  5vh;
+    }
+    .rojo1{
+        width: 500px;
+        height: 40px;
+    }
+    .rojo{
+        width: 90px;
+        height: 5vh;
+    }
+    .logo{
+        height: 400px;
+    }
+    p{
+        font-size:14px;
+    }
+    .img{
+        width: 150px;
+    }
+    h2{
+        font-size:20px;
+    }
+    footer{
+        height: 50px;
+        font-size: 20px;
+    }
+    .escrito{
+        font-size: 20px;
+    }
+    .mover{
+        font-size: 20px;
+    }
+    .fondo{
+        width: 500px;
+        height: 190px;
+        padding: 2%;
+        font-size: 15px;
+    }
+    .nosotros{
+        background-color: #f4f4f4;
+    }
+    
+    .contenedor1{
+        padding: 3%;
+        height: 200px;
+        font-size: 20px;
+        width: 250px;
+    }
+    .que{
+        width: 500px;
+        font-size: 20px;
+    }
+    .que1{
+        width: 500px;
+        font-size: 20px;
+        gap: 20px;
+    }
+    .fondos{
+        width: 500px;
+        height: 200px;
+        padding: 20px;
+    }
+    .que2{
+        width: 500px;
+        font-size: 20px;
+        gap: 20px;
+    }
+    .formulario{
+        width: 100px;
+    }
+    .formato{
+        width: 500px;
+        height: 40px;
+    }
+    .mensaje{
+        width: 500px;
+        height: 150px;
+    }
+    .mapa{
+        height: 200px;
+        width: 250px;
+    }
+    
+}
+@media(max-width:600px) {
+    .letra1{
+        padding: 0 70px 0 70px;
+    }
+    h1{
+        font-size: 25px;
+    }
+    .navegacion{
+        height: 100px;
+        padding: 2%;
+        gap: 20px;
+    }
+    .navegacion nav{
+        gap: 20px;
+    }
+    .azul{
+        color: #1293d4;
+    }
+    .blanco{
+        color: white;
+    }
+    nav a{
+        text-decoration: none;
+        color:white;
+        gap: 20px;
+        font-size: 20px;
+        
+    }
+    .DORDE{
+        border-bottom: solid #1293d4;
+    }
+    section{
+        background: url(../images/cabecera.jpg);
+        background-size: cover;
+        height: 300px;
+    }
+    .letra{
+        color: white; 
+        font-size: 30px;
+        padding: 20px;
+    }
+    .navegacion1{
+        display: flex;
+        background-color: #24282b;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 2%;
+        font-size: 25px;
+    
+    }
+    .ancho{
+        width: 190px;
+        height:  5vh;
+        background-color: white;
+    }
+    .rojo1{
+        background-color: #e8491d;
+        width: 300px;
+        height: 30px;
+        color: white;
+    }
+    .rojo{
+        width: 90px;
+        height: 5vh;
+        background-color: #e8491d;
+        color: white;
+    }
+    .logo{
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+        height: 320px;
+    }
+    p{
+        font-size:14px;
+    }
+    .img{
+        width: 130px;
+    }
+    h2{
+        font-size:20px;
+    }
+    .imagen{
+        text-align: center;
+    }
+    footer{
+        height: 40px;
+        font-size: 15px;
+    }
+    .escrito{
+        font-size: 20px;
+    }
+    .mover{
+        font-size: 20px;
+    }
+    .fondo{
+        width: 300px;
+        height: 260px;
+        padding: 2%;
+        font-size: 15px;
+    }
+    .hacemos{
+        color: white;
+        background-color: black;
+    }
+    .h{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+    .contenedor1{
+        height: 200px;
+        font-size: 20px;
+        width: 250px;
+    }
+    .que{
+        width: 300px;
+        font-size: 20px;
+    }
+    .que1{
+        width: 500px;
+        font-size: 20px;
+        gap: 20px;
+    }
+    .fondos{
+        width: 300px;
+        height: 200px;
+        padding: 15px;
+    }
+    .que2{
+        width: 500px;
+        font-size: 20px;
+        gap: 20px;
+    }
+    .formato{
+        width: 300px;
+        height: 30px;
+    }
+    .mensaje{
+        width: 300px;
+        height: 120px;
+    }
+    .mapa{
+        height: 200px;
+        width: 250px;
+    }
+
+
+}
+@media(max-width:360px) {
+    header{
+        width: 100%;
+    }
+    .letra1{
+        padding: 0 30px 0 30px;
+    }
+    h1{
+        font-size: 30px;
+    }
+    .navegacion{
+        display: flex;
+        flex-direction: column;
+        background-color: #24282b;
+        height: 100px;
+        padding: 2%;
+    }
+    nav a{
+        font-size: 15px;
+        
+    }
+    .DORDE{
+        border-bottom: solid #1293d4;
+    }
+    section{
+        background: url(../images/cabecera.jpg);
+        background-size: cover;
+        height: 200px;
+    }
+    .letra{
+        color: white; 
+        font-size: 25px;
+        padding: 10px;
+    }
+    .navegacion1{
+        display: flex;
+        background-color: #24282b;
+        align-items: center;
+        justify-content: space-evenly;
+        padding: 2%;
+        font-size: 25px;
+    
+    }
+    .ancho{
+        width: 190px;
+        height:  5vh;
+        background-color: white;
+    }
+    .rojo1{
+        width: 300px;
+        height: 30px;
+    }
+    .rojo{
+        width: 90px;
+        height: 5vh;
+        background-color: #e8491d;
+        color: white;
+    }
+    .logo{
+        flex-direction: column;
+        height: 1000px;
+    }
+    p{
+        font-size:14px;
+    }
+    .img{
+        width: 150px;
+    }
+    h2{
+        font-size:20px;
+    }
+    footer{
+        height: 50px;
+        font-size: 15px;
+    }
+    .escrito{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        font-size: 20px;
+    }
+    .mover{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        font-size: 20px;
+    }
+    .fondo{
+        width: 300px;
+        height: 250px;
+        padding: 2%;
+        font-size: 15px;
+    }
+    .hacemos{
+        color: white;
+        background-color: black;
+    }
+    .h{
+        display: flex;
+        justify-content: space-between;
+    }
+    .nosotros{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+    .contenedor1{
+        padding: 3%;
+        height: 160px;
+        font-size: 20px;
+        width: 300px;
+    }
+    .que{
+        width: 300px;
+        font-size: 20px;
+    }
+    .servicios{
+        flex-direction: column;
+        align-items: center;
+    }
+    .que1{
+        width: 300px;
+        font-size: 20px;
+        gap: 20px;
+    }
+
+    .fondos{
+        width: 300px;
+        height: 250px;
+        padding: 20px;
+        border-color: black;
+    }
+    .contacto{
+        flex-direction: column;
+        align-items: center;
+    }
+    .que2{
+        width: 300px;
+        font-size: 20px;
+    }
+    .formato{
+        width: 300px;
+        height: 30px;
+    }
+    .mensaje{
+        width: 300px;
+        height: 100px;
+    }
+    .mapa{
+        height: 200px;
+        width: 300px;
+    }
+    
 }
